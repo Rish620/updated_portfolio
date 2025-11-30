@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/upadted-portfolio/static/css/main.ff0f2ebc.css",
+    "main.js": "/upadted-portfolio/static/js/main.8d62f915.js",
+    "static/media/1.png": "/upadted-portfolio/static/media/1.dcc666d37accc438ff26.png",
+    "static/media/portfolio-6.png": "/upadted-portfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
+    "static/media/portfolio-2.png": "/upadted-portfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
+    "static/media/portfolio-4.png": "/upadted-portfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
+    "static/media/portfolio-1.png": "/upadted-portfolio/static/media/portfolio-1.b33adf772d54ab33e953.png",
+    "static/media/portfolio-5.png": "/upadted-portfolio/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
+    "static/media/portfolio-3.png": "/upadted-portfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/facebook.png": "/upadted-portfolio/static/media/facebook.81dd033a37c4860f7121.png",
+    "static/media/adobe.png": "/upadted-portfolio/static/media/adobe.a08b8360ff7b700ed0c4.png",
+    "static/media/walmart.png": "/upadted-portfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
+    "static/media/ui-design.png": "/upadted-portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/upadted-portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/upadted-portfolio/index.html",
+    "main.ff0f2ebc.css.map": "/upadted-portfolio/static/css/main.ff0f2ebc.css.map",
+    "main.8d62f915.js.map": "/upadted-portfolio/static/js/main.8d62f915.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff0f2ebc.css",
+    "static/js/main.8d62f915.js"
+  ]
+}
