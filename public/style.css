@@ -27,7 +27,7 @@ select {
 
 /* Scroll behavior and base theme */
 body {
-  background-color: #000;      /* true black */
+  background-color: #1f1f1f;      /* true black */
   color: wheat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;

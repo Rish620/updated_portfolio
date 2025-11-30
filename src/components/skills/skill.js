@@ -14,7 +14,7 @@ const Skill = () => {
           <img src={uidesign} alt="Uidesign" className="skillBarImg" />
             <div className="skillbarText">
               <h2>ClassRoom_web</h2>
-              <p>https://github.com/Rish620/rishu_classroom</p>
+           <a href="https://github.com/Rish620/rishu_classroom" target='blank' >Rishu Classroom</a>
             </div>
          </div>
 
@@ -22,7 +22,8 @@ const Skill = () => {
           <img src={webdesign} alt="webdesign" className="skillBarImg" />
             <div className="skillbarText">
               <h2>Algorithm Visulaizer</h2>
-              <p>link:https://github.com/Rish620/algorithm</p>
+             <a href="link:https://github.com/Rish620/algorithm" target='blank'>Algorithm Visulaizer</a>
+             
             </div>
          </div>
 

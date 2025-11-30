@@ -45,7 +45,7 @@ const Intro = () => {
         <img src={btnImg} alt="Hire me icon" className="btnImg" />
         Hire me
         <span className="downloadIcon" title="Download CV">⬇️</span>
-        <a href="/cvlatest.pdf" download target="_blank" rel="noopener noreferrer">
+        <a href="/RishuSaurabhResume.pdf" download target="_blank" rel="noopener noreferrer">
   Download CV
 </a>
 
