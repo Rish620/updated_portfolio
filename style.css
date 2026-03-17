@@ -25,13 +25,75 @@ select {
   outline: none;
 }
 
+:root {
+  --color-bg: #f5f1ea;
+  --color-surface: #f5f1ea;
+  --color-surface-elevated: #fffdf8;
+  --color-surface-soft: #ece4d8;
+  --color-text: #171717;
+  --color-text-muted: #5b5144;
+  --color-heading: #0f0f0f;
+  --color-accent: #ff6b00;
+  --color-accent-strong: #e95800;
+  --color-accent-soft: rgba(255, 107, 0, 0.16);
+  --color-border: rgba(23, 23, 23, 0.12);
+  --color-shadow: rgba(28, 21, 14, 0.12);
+  --color-input-bg: #ffffff;
+  --color-input-text: #171717;
+  --color-overlay: rgba(0, 0, 0, 0.7);
+  --page-background-tint: rgba(11, 33, 59, 0.5);
+  --section-surface: rgba(245, 241, 234, 0.7);
+  --section-surface-strong: rgba(255, 253, 248, 0.86);
+}
+
+:root[data-theme='dark'],
+body[data-theme='dark'] {
+  --color-bg: #171717;
+  --color-surface: #1f1f1f;
+  --color-surface-elevated: #262626;
+  --color-surface-soft: #2f2f2f;
+  --color-text: #f4ede1;
+  --color-text-muted: #c9beae;
+  --color-heading: #ffffff;
+  --color-accent: #ff7a1a;
+  --color-accent-strong: #ff9f57;
+  --color-accent-soft: rgba(255, 122, 26, 0.2);
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-shadow: rgba(0, 0, 0, 0.35);
+  --color-input-bg: #2a2a2a;
+  --color-input-text: #f5f0e8;
+  --color-overlay: rgba(0, 0, 0, 0.76);
+  --page-background-tint: rgba(5, 15, 28, 0.68);
+  --section-surface: rgba(20, 24, 29, 0.7);
+  --section-surface-strong: rgba(31, 31, 31, 0.84);
+  color-scheme: dark;
+}
+
+:root[data-theme='light'],
+body[data-theme='light'] {
+  color-scheme: light;
+}
+
 /* Scroll behavior and base theme */
 body {
-  background-color: #1f1f1f;      /* true black */
-  color: wheat;
+  background-color: var(--color-bg);
+  background-image:
+    linear-gradient(var(--page-background-tint), var(--page-background-tint)),
+    url("./dried-flowers-vase-blue-wall.jpg?v=20260317");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--color-text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
   overflow-y: auto;
   scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root,
+.App {
+  min-height: 100vh;
 }
