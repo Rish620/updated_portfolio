@@ -1,0 +1,31 @@
+{
+  "currentCompany": "Apptad",
+  "currentRole": "Intern",
+  "summary": "This card reads from a live profile data file, so company and role changes can appear automatically without editing the React component.",
+  "timeline": [
+    {
+      "role": "Intern",
+      "company": "Apptad",
+      "details": "Currently contributing at Apptad and building day-to-day product and engineering experience."
+    },
+    {
+      "role": "Cloud Engineer Intern",
+      "company": "Ecotec Service",
+      "details": "Worked onsite with AWS, Google Cloud, and Jenkins-based CI/CD workflows."
+    },
+    {
+      "role": "Full Stack Intern",
+      "company": "Future Interns",
+      "details": "Built and maintained web applications with React.js, Node.js, and MongoDB."
+    }
+  ],
+  "skills": [
+    "React.js",
+    "Node.js",
+    "AWS",
+    "Google Cloud",
+    "Jenkins",
+    "CI/CD"
+  ],
+  "lastUpdated": "2026-03-18T12:00:00+05:30"
+}

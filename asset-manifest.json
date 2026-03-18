@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/updated_portfolio/static/css/main.e29b9bb4.css",
-    "main.js": "/updated_portfolio/static/js/main.cd7034a1.js",
+    "main.css": "/updated_portfolio/static/css/main.5c116ae2.css",
+    "main.js": "/updated_portfolio/static/js/main.7d50aa6c.js",
     "static/media/portfolio-6.png": "/updated_portfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
     "static/media/portfolio-2.png": "/updated_portfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
     "static/media/portfolio-4.png": "/updated_portfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
@@ -13,11 +13,11 @@
     "static/media/walmart.png": "/updated_portfolio/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
     "static/media/instagram.png": "/updated_portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/updated_portfolio/index.html",
-    "main.e29b9bb4.css.map": "/updated_portfolio/static/css/main.e29b9bb4.css.map",
-    "main.cd7034a1.js.map": "/updated_portfolio/static/js/main.cd7034a1.js.map"
+    "main.5c116ae2.css.map": "/updated_portfolio/static/css/main.5c116ae2.css.map",
+    "main.7d50aa6c.js.map": "/updated_portfolio/static/js/main.7d50aa6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e29b9bb4.css",
-    "static/js/main.cd7034a1.js"
+    "static/css/main.5c116ae2.css",
+    "static/js/main.7d50aa6c.js"
   ]
 }
