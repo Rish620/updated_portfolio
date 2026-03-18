@@ -6,10 +6,10 @@
   justify-content: center;
   font-weight: 300;
   font-size: 0.9rem;
-  background: linear-gradient(to right, #111, #1c1c1c);
-  color: #d3cbb8;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(4px);
+  background-color: transparent;
+  color: var(--color-text-muted);
+  border-top: none;
+  backdrop-filter: none;
   position: relative;
   z-index: 10;
   animation: fadeInFooter 1.2s ease-out;

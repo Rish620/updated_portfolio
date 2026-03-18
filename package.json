@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Rish620.github.io/personal",
+  "homepage": "https://Rish620.github.io/updated_portfolio",
   "name": "personal",
   "version": "0.1.0",
   "private": true,
@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }

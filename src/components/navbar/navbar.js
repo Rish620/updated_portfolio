@@ -5,7 +5,7 @@ import contact from '../../assets/contact.png';
 import { Link } from 'react-scroll';
 import menu from '../../assets/menu.png';
 
-const Navbar = () => {
+const Navbar = ({ theme, onToggleTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   // Close menu on link click helper
@@ -41,6 +41,15 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
+
+      <button
+        type="button"
+        className="themeToggle"
+        onClick={onToggleTheme}
+        aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+      >
+        {theme === 'dark' ? 'Light mode' : 'Dark mode'}
+      </button>
 
       <button
         className="desktopMenuBtn"
@@ -82,7 +91,7 @@ const Navbar = () => {
             smooth={true}
             offset={-100}
             duration={500}
-            className="ListItem"
+            className="listItem"
             role="menuitem"
             tabIndex={0}
             onClick={handleLinkClick}
